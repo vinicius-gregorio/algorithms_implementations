@@ -7,12 +7,11 @@ import (
 )
 
 func Search() {
-	fmt.Println("Starting Search")
-	//populate toSearch with 100 items
-	arr := make([]string, 100)
-	for i := 0; i < 100; i++ {
+	qtdy := 1000
+	arr := make([]string, qtdy)
+	for i := 0; i < qtdy; i++ {
 		arr[i] = fmt.Sprintf("element%d", i)
 	}
-	searchElement := arr[randomize.GetRandomNumber(0, len(arr))]
+	searchElement := arr[randomize.GetRandomNumber(0, len(arr)-1)]
 	LinearSearch(arr, searchElement)
 }
