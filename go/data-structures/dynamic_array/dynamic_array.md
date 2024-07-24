@@ -1,4 +1,5 @@
-# Hacker Rank Problem
+# Dynamic Array
+## Hacker Rank Problem
 
 Declare a 2-dimensional array, , of  empty arrays. All arrays are zero indexed.
 Declare an integer, , and initialize it to .
